@@ -99,9 +99,3 @@ fn tick_when_dead_and_four_live_neighbours() {
     u.tick();
     assert_eq!(false, u.is_live(1, 1));
 }
-
-// #[test]
-// fn renders_correctly() {
-//     let u = Universe::new_with_cells(3, 3, &[(1, 0), (0, 1), (2, 1), (1, 2)]);
-//     assert_eq!(" ◼ \n◼ ◼\n ◼ \n", u.render())
-// }
